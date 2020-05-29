@@ -1,0 +1,6 @@
+create_library(NAME Instrument)
+add_subdirectory(FRA)
+add_subdirectory(Bond)
+add_subdirectory(Swap)
+add_subdirectory(Deposit)
+add_subdirectory(Payment)

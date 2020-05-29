@@ -1,0 +1,695 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="sqf"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake-lib\;CMake Files\src\;CMake Files\src\Date\;CMake Files\src\Instrument\;CMake Files\src\Instrument\FRA\;CMake Files\src\Instrument\Bond\;CMake Files\src\Instrument\Swap\;CMake Files\src\Instrument\Deposit\;CMake Files\src\Instrument\Payment\;CMake Files\src\ZeroCouponYieldCurve\;CMake Files\src\TIR\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main_test">
+				<Option output="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/build/main_test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/src"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 main_test"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main_test/fast">
+				<Option output="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/build/main_test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/src"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 main_test/fast"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DayCountCalculator">
+				<Option output="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/build/libDayCountCalculator.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/src/Date"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/src"/>
+					<Add directory="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/src/Date/."/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/src/Date/Makefile&quot;  VERBOSE=1 DayCountCalculator"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/src/Date/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/src/Date/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/src/Date/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DayCountCalculator/fast">
+				<Option output="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/build/libDayCountCalculator.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/src/Date"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/src"/>
+					<Add directory="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/src/Date/."/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/src/Date/Makefile&quot;  VERBOSE=1 DayCountCalculator/fast"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/src/Date/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/src/Date/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/src/Date/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Actual_360">
+				<Option output="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/build/libActual_360.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/src/Date"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/src"/>
+					<Add directory="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/src/Date/."/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/src/Date/Makefile&quot;  VERBOSE=1 Actual_360"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/src/Date/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/src/Date/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/src/Date/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Actual_360/fast">
+				<Option output="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/build/libActual_360.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/src/Date"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/src"/>
+					<Add directory="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/src/Date/."/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/src/Date/Makefile&quot;  VERBOSE=1 Actual_360/fast"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/src/Date/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/src/Date/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/src/Date/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Thirty_360">
+				<Option output="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/build/libThirty_360.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/src/Date"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/src"/>
+					<Add directory="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/src/Date/."/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/src/Date/Makefile&quot;  VERBOSE=1 Thirty_360"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/src/Date/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/src/Date/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/src/Date/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Thirty_360/fast">
+				<Option output="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/build/libThirty_360.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/src/Date"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/src"/>
+					<Add directory="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/src/Date/."/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/src/Date/Makefile&quot;  VERBOSE=1 Thirty_360/fast"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/src/Date/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/src/Date/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/src/Date/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Instrument">
+				<Option output="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/build/libInstrument.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/src/Instrument"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/src"/>
+					<Add directory="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/src/Instrument/."/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/src/Instrument/Makefile&quot;  VERBOSE=1 Instrument"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/src/Instrument/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/src/Instrument/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/src/Instrument/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Instrument/fast">
+				<Option output="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/build/libInstrument.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/src/Instrument"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/src"/>
+					<Add directory="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/src/Instrument/."/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/src/Instrument/Makefile&quot;  VERBOSE=1 Instrument/fast"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/src/Instrument/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/src/Instrument/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/src/Instrument/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="FRA">
+				<Option output="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/build/libFRA.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/src/Instrument/FRA"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/src"/>
+					<Add directory="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/src/Instrument/."/>
+					<Add directory="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/src/Instrument/FRA/."/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/src/Instrument/FRA/Makefile&quot;  VERBOSE=1 FRA"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/src/Instrument/FRA/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/src/Instrument/FRA/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/src/Instrument/FRA/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="FRA/fast">
+				<Option output="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/build/libFRA.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/src/Instrument/FRA"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/src"/>
+					<Add directory="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/src/Instrument/."/>
+					<Add directory="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/src/Instrument/FRA/."/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/src/Instrument/FRA/Makefile&quot;  VERBOSE=1 FRA/fast"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/src/Instrument/FRA/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/src/Instrument/FRA/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/src/Instrument/FRA/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Bond">
+				<Option output="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/build/libBond.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/src/Instrument/Bond"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/src"/>
+					<Add directory="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/src/Instrument/."/>
+					<Add directory="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/src/Instrument/Bond/."/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/src/Instrument/Bond/Makefile&quot;  VERBOSE=1 Bond"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/src/Instrument/Bond/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/src/Instrument/Bond/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/src/Instrument/Bond/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Bond/fast">
+				<Option output="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/build/libBond.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/src/Instrument/Bond"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/src"/>
+					<Add directory="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/src/Instrument/."/>
+					<Add directory="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/src/Instrument/Bond/."/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/src/Instrument/Bond/Makefile&quot;  VERBOSE=1 Bond/fast"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/src/Instrument/Bond/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/src/Instrument/Bond/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/src/Instrument/Bond/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Swap">
+				<Option output="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/build/libSwap.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/src/Instrument/Swap"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/src"/>
+					<Add directory="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/src/Instrument/."/>
+					<Add directory="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/src/Instrument/Swap/."/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/src/Instrument/Swap/Makefile&quot;  VERBOSE=1 Swap"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/src/Instrument/Swap/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/src/Instrument/Swap/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/src/Instrument/Swap/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Swap/fast">
+				<Option output="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/build/libSwap.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/src/Instrument/Swap"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/src"/>
+					<Add directory="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/src/Instrument/."/>
+					<Add directory="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/src/Instrument/Swap/."/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/src/Instrument/Swap/Makefile&quot;  VERBOSE=1 Swap/fast"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/src/Instrument/Swap/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/src/Instrument/Swap/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/src/Instrument/Swap/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Deposit">
+				<Option output="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/build/libDeposit.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/src/Instrument/Deposit"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/src"/>
+					<Add directory="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/src/Instrument/."/>
+					<Add directory="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/src/Instrument/Deposit/."/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/src/Instrument/Deposit/Makefile&quot;  VERBOSE=1 Deposit"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/src/Instrument/Deposit/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/src/Instrument/Deposit/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/src/Instrument/Deposit/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Deposit/fast">
+				<Option output="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/build/libDeposit.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/src/Instrument/Deposit"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/src"/>
+					<Add directory="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/src/Instrument/."/>
+					<Add directory="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/src/Instrument/Deposit/."/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/src/Instrument/Deposit/Makefile&quot;  VERBOSE=1 Deposit/fast"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/src/Instrument/Deposit/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/src/Instrument/Deposit/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/src/Instrument/Deposit/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ZeroCouponYieldCurve">
+				<Option output="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/build/libZeroCouponYieldCurve.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/src/ZeroCouponYieldCurve"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/src"/>
+					<Add directory="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/src/ZeroCouponYieldCurve/."/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/src/ZeroCouponYieldCurve/Makefile&quot;  VERBOSE=1 ZeroCouponYieldCurve"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/src/ZeroCouponYieldCurve/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/src/ZeroCouponYieldCurve/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/src/ZeroCouponYieldCurve/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ZeroCouponYieldCurve/fast">
+				<Option output="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/build/libZeroCouponYieldCurve.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/src/ZeroCouponYieldCurve"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/src"/>
+					<Add directory="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/src/ZeroCouponYieldCurve/."/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/src/ZeroCouponYieldCurve/Makefile&quot;  VERBOSE=1 ZeroCouponYieldCurve/fast"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/src/ZeroCouponYieldCurve/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/src/ZeroCouponYieldCurve/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/src/ZeroCouponYieldCurve/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tir">
+				<Option output="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/build/libtir.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/src/TIR"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/src"/>
+					<Add directory="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/src/TIR/."/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/src/TIR/Makefile&quot;  VERBOSE=1 tir"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/src/TIR/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/src/TIR/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/src/TIR/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tir/fast">
+				<Option output="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/build/libtir.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/src/TIR"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/src"/>
+					<Add directory="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/src/TIR/."/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/src/TIR/Makefile&quot;  VERBOSE=1 tir/fast"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/src/TIR/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/src/TIR/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/src/TIR/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cuponPayment">
+				<Option output="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/build/libcuponPayment.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/src/TIR"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/src"/>
+					<Add directory="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/src/TIR/."/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/src/TIR/Makefile&quot;  VERBOSE=1 cuponPayment"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/src/TIR/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/src/TIR/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/src/TIR/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cuponPayment/fast">
+				<Option output="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/build/libcuponPayment.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/src/TIR"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/src"/>
+					<Add directory="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/src/TIR/."/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/src/TIR/Makefile&quot;  VERBOSE=1 cuponPayment/fast"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/src/TIR/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/src/TIR/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-build-debug/src/TIR/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/main.cpp">
+			<Option target="main_test"/>
+		</Unit>
+		<Unit filename="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/src/Date/Actual_360.h">
+			<Option target="DayCountCalculator"/>
+			<Option target="Actual_360"/>
+			<Option target="Thirty_360"/>
+		</Unit>
+		<Unit filename="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/src/Date/DayCountCalculator.h">
+			<Option target="DayCountCalculator"/>
+			<Option target="Actual_360"/>
+			<Option target="Thirty_360"/>
+		</Unit>
+		<Unit filename="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/src/Date/Thirty_360.h">
+			<Option target="DayCountCalculator"/>
+			<Option target="Actual_360"/>
+			<Option target="Thirty_360"/>
+		</Unit>
+		<Unit filename="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/src/Instrument/Bond/Bond.h">
+			<Option target="Bond"/>
+		</Unit>
+		<Unit filename="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/src/Instrument/Deposit/Deposit.cpp">
+			<Option target="Deposit"/>
+		</Unit>
+		<Unit filename="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/src/Instrument/Deposit/Deposit.h">
+			<Option target="Deposit"/>
+		</Unit>
+		<Unit filename="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/src/Instrument/FRA/FRA.cpp">
+			<Option target="FRA"/>
+		</Unit>
+		<Unit filename="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/src/Instrument/FRA/FRA.h">
+			<Option target="FRA"/>
+		</Unit>
+		<Unit filename="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/src/Instrument/Instrument.h">
+			<Option target="Instrument"/>
+		</Unit>
+		<Unit filename="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/src/Instrument/Payment/Payment.h">
+			<Option target="main_test"/>
+		</Unit>
+		<Unit filename="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/src/Instrument/Swap/Swap.h">
+			<Option target="Swap"/>
+		</Unit>
+		<Unit filename="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/src/Spline/spline.h">
+			<Option target="main_test"/>
+		</Unit>
+		<Unit filename="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/src/TIR/CouponPayments.h">
+			<Option target="tir"/>
+			<Option target="cuponPayment"/>
+		</Unit>
+		<Unit filename="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/src/TIR/tir.h">
+			<Option target="tir"/>
+			<Option target="cuponPayment"/>
+		</Unit>
+		<Unit filename="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/src/ZeroCoupon/ZeroCoupon.h">
+			<Option target="main_test"/>
+		</Unit>
+		<Unit filename="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/src/ZeroCouponYieldCurve/ZeroCouponYieldCurve.h">
+			<Option target="ZeroCouponYieldCurve"/>
+		</Unit>
+		<Unit filename="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/cmake-lib/CMakeAuxFunctions.cmake">
+			<Option virtualFolder="CMake Files\cmake-lib\"/>
+		</Unit>
+		<Unit filename="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/src/Date/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\Date\"/>
+		</Unit>
+		<Unit filename="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/src/Instrument/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\Instrument\"/>
+		</Unit>
+		<Unit filename="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/src/Instrument/FRA/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\Instrument\FRA\"/>
+		</Unit>
+		<Unit filename="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/src/Instrument/Bond/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\Instrument\Bond\"/>
+		</Unit>
+		<Unit filename="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/src/Instrument/Swap/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\Instrument\Swap\"/>
+		</Unit>
+		<Unit filename="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/src/Instrument/Deposit/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\Instrument\Deposit\"/>
+		</Unit>
+		<Unit filename="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/src/Instrument/Payment/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\Instrument\Payment\"/>
+		</Unit>
+		<Unit filename="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/src/ZeroCouponYieldCurve/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\ZeroCouponYieldCurve\"/>
+		</Unit>
+		<Unit filename="C:/Users/HP/Documents/Master_FinTech/FrontOffice/Practicas/Practicas 1 y 2/src/TIR/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\TIR\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
